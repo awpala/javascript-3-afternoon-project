@@ -52,7 +52,7 @@ var employees = [
 
 //Code Here
 function employeeUpdater() {
-  for (employee in employees) {
+  for (let employee in employees) {
     if (employees[employee].firstName === 'Theo') {
       delete employees[employee];
     } else if (employees[employee].firstName === 'Lorie') {
